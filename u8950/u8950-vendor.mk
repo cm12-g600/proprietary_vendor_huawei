@@ -14,9 +14,8 @@
 # limitations under the License.
 #
 
+$(call inherit-product, vendor/huawei/msm7x27a-common/msm7x27a-common-vendor.mk)
 $(call inherit-product, vendor/huawei/u8950/u8950-vendor-blobs.mk)
-
-$(call inherit-product, vendor/huawei/u8833/u8833-vendor.mk)
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/huawei/u8950/overlay
