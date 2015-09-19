@@ -15,9 +15,8 @@
 #
 
 PRODUCT_COPY_FILES += \
-	vendor/huawei/u8950/proprietary/lib/libcm.so:system/lib/libcm.so \
-	vendor/huawei/u8950/proprietary/etc/bluetooth/BCM4330.hcd:system/etc/bluetooth/BCM4330.hcd \
-	vendor/huawei/u8950/proprietary/etc/fw_4330_b2.bin:system/etc/fw_4330_b2.bin \
+		vendor/huawei/u8950/proprietary/lib/libcm.so:system/lib/libcm.so \
+		vendor/huawei/u8950/proprietary/etc/bluetooth/BCM4330.hcd:system/etc/bluetooth/BCM4330.hcd \
     vendor/huawei/u8950/proprietary/bin/modempre:system/bin/modempre \
     vendor/huawei/u8950/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/u8950/proprietary/bin/netmgrd:system/bin/netmgrd \
